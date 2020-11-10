@@ -2,7 +2,8 @@ import {Component} from "@angular/core";
 
 @Component({
     selector: "app-numeros-random",
-    templateUrl: "./numerosrandom.component.html"
+    templateUrl: "./numerosrandom.component.html",
+    styleUrls:["./numerosrandom.component.css"]
 })
 export class NumerosRandom {
     public numeros: Array<number>;
